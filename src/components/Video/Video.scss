@@ -1,0 +1,18 @@
+@import "../../shared";
+
+.Video {
+    position:absolute;
+    z-index:12;
+    margin:auto;
+    top:50%;
+    transform:translateY(-50%);
+
+    &:after {
+        content:'';
+        display:block;
+        position:absolute;
+        top:0;
+        width:100%;
+        height:calc(100% - 50px);
+    }
+}

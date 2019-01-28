@@ -1,0 +1,53 @@
+@import "../../shared";
+
+.Board {
+    position:relative;
+    display:table;
+    width:auto;
+    height:inherit;
+    max-height:1024px;
+    box-sizing:border-box;
+    transition:left $effect-slide-duration $effect-slide;
+    transform:translateZ(0);
+    overflow:hidden;
+    background-image:linear-gradient(#f9f9f9, #afbbca);
+
+    html.no-hiddenscroll & {
+        transition:left $effect-scroll-duration $effect-scroll;
+    }
+
+    body:not(.is-ready) & {
+        display:none;
+    }
+
+    body.is-sharing & {
+        filter:blur(2px);
+    }
+
+    &__slide {
+        position:relative;
+        display:table-cell;
+        vertical-align:top;
+        table-layout:fixed;
+        box-sizing:border-box;
+        min-width:inherit;
+        max-width:inherit;
+        height:inherit;
+        padding:0;
+
+        &--middle {
+            vertical-align:middle;
+        }
+
+        &--bottom {
+            vertical-align:bottom;
+        }
+    }
+
+    &:after {
+        content:'';
+        display:block;
+        clear:both;
+    }
+
+}

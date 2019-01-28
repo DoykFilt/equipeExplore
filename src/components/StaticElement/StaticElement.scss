@@ -1,0 +1,21 @@
+@import "../../shared";
+
+.StaticElement {
+    position:absolute;
+    width:100%;
+    z-index:10;
+    top:0;
+    left:0;
+    height:inherit;
+    background-size:cover;
+    background-repeat:no-repeat;
+
+    &--double {
+        width:200%;
+    }
+
+    img {
+        height:104%;
+        margin-top:-2%;
+    }
+}

@@ -1,0 +1,81 @@
+@import "../../shared";
+
+.Masthead {
+    position:absolute;
+    bottom:20px;
+    z-index:12;
+    display:table;
+    width:90%;
+    left:5%;
+
+    &__item {
+        display:table-row;
+    }
+
+    &__label {
+        display:table-cell;
+        text-align:right;
+        vertical-align:top;
+        @include font(mediumCond, 18, 20);
+        color:$color-explore;
+        width:48%;
+        padding-right:2%;
+        padding-top:10px;
+
+        @media (orientation: landscape) and (min-width: $bp-phablet) {
+            font-size:20px;
+            line-height:28px;
+            padding-top:15px;
+        }
+
+        .Masthead__item--full & {
+            @include font(light, 13, 16);
+            display:inline-block;
+            width:auto;
+            padding-top:0;
+            padding-right:0;
+
+            @media (orientation: landscape) and (min-width: $bp-phablet) {
+                @include font(regularCond, 18, 22);
+            }
+        }
+    }
+
+    &__details {
+        display:table-cell;
+        text-align:left;
+        vertical-align:top;
+        @include font(regularCond, 18, 20);
+        color:$color-white;
+        padding-top:10px;
+
+        @media (orientation: landscape) and (min-width: $bp-phablet) {
+            font-size:20px;
+            line-height:24px;
+            padding-top:15px;
+        }
+
+        .Masthead__item--full & {
+            @include font(light, 13, 16);
+            display:block;
+            width:200%;
+            padding-top:5px;
+            text-align:center;
+
+            @media (orientation: landscape) and (min-width: $bp-phablet) {
+                @include font(regularCond, 18, 22);
+                width: 150%;
+                text-align: center;
+                padding-left: 50%;
+            }
+        }
+    }
+
+    .twitter-follow-button {
+        display:none;
+
+        @media (min-height: $bp-phone) {
+            display:block;
+        }
+    }
+}
