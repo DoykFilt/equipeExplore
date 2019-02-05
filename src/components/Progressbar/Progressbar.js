@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-// import './Progressbar.css';
+import './Progressbar.css';
 
-export default class Element extends Component {
+export default class Progressbar extends Component {
 
     render() {
 
