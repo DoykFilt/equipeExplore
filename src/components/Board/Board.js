@@ -2,9 +2,9 @@ import config from '../../config';
 import React, { Component } from 'react';
 import Edito from '../Edito/Edito';
 import Element from '../Element/Element';
-import StaticElement from '../StaticElement/StaticElement';
+// import StaticElement from '../StaticElement/StaticElement';
 import Skew from '../Skew/Skew';
-import Video from '../Video/Video';
+// import Video from '../Video/Video';
 import Masthead from '../Masthead/Masthead';
 import './Board.css';
 
@@ -63,9 +63,176 @@ export default class Board extends Component {
         return (
             <div id="board" className="Board" style={{marginTop:this.state.boardTop, left:0,  minWidth:this.state.slideWidth, height: this.state.boardHeight}}>
 
-
                 {/* CHAP 0 - Introduction */}
 
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[0].zone_1} positionTop="50%"></Edito>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[0].zone_2} positionTop="50%"></Edito>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[0].zone_3} positionTop="50%"></Edito>
+                    <Element name="CHAP0_IMG1.png" index="p1" positionLeft="0%"  ></Element>
+                </div>
+
+                {/* CHAP 1 - Les championnats de France de Thionville */}
+
+                <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
+                    <Skew position="left" name="CHAP1__TITRE.png" bg="CHAP1__OUVERTURE.png"></Skew>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[1].zone_1} positionTop="50%"></Edito>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[1].zone_2} positionTop="50%"></Edito>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[1].zone_3} positionTop="50%"></Edito>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[1].zone_4} positionTop="50%"></Edito>
+                </div>
+                 <div className="Board__slide">
+                    <Edito content={this.props.datas.text[1].zone_5} positionTop="50%"></Edito>
+                    <Element name="CHAP1_IMG1.png" index="p1" positionLeft="0%"  ></Element>
+                </div>
+                 <div className="Board__slide">
+                    <Edito content={this.props.datas.text[1].zone_6} positionTop="50%"></Edito>
+                    <Element name="CHAP1_IMG2.png" index="p1" positionLeft="0%"  ></Element>
+                </div>
+
+                {/* CHAP 2 - Un palmarès déjà bien fourni */}
+
+                <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
+                    <Skew position="left" name="CHAP2__TITRE.png" bg="CHAP2__OUVERTURE.png"></Skew>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[2].zone_1} positionTop="50%"></Edito>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[2].zone_2} positionTop="50%"></Edito>
+                </div>
+                 <div className="Board__slide">
+                    <Edito content={this.props.datas.text[2].zone_3} positionTop="50%"></Edito>
+                    <Element name="CHAP2_IMG1.png" index="p1" positionLeft="0%"  ></Element>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[2].zone_4} positionTop="50%"></Edito>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[2].zone_5} positionTop="50%"></Edito>
+                </div>
+                 <div className="Board__slide">
+                    <Edito content={this.props.datas.text[2].zone_6} positionTop="50%"></Edito>
+                    <Element name="CHAP2_IMG2.png" index="p1" positionLeft="0%"  ></Element>
+                </div>
+
+                {/* CHAP 3 - Une vie qui bascule */}
+
+                <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
+                    <Skew position="left" name="CHAP3__TITRE.png" bg="CHAP3__OUVERTURE.png"></Skew>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[3].zone_1} positionTop="50%"></Edito>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[3].zone_2} positionTop="50%"></Edito>
+                </div>
+
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[3].zone_3} positionTop="50%"></Edito>
+                </div>
+
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[3].zone_4} positionTop="50%"></Edito>
+                </div>
+
+
+                {/* CHAP 4 - Une reconstruction grâce au sport */}
+
+                <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
+                    <Skew position="left" name="CHAP4__TITRE.png" bg="CHAP4__OUVERTURE.png"></Skew>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[4].zone_1} positionTop="50%"></Edito>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[4].zone_2} positionTop="50%"></Edito>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[4].zone_3} positionTop="50%"></Edito>
+                </div>
+
+                {/* CHAP 5 - Théo Curin, sportif à temps plein */}
+
+                <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
+                    <Skew position="left" name="CHAP5__TITRE.png" bg="CHAP5__OUVERTURE.png"></Skew>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[5].zone_1} positionTop="50%"></Edito>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[5].zone_2} positionTop="50%"></Edito>
+                </div>
+                 <div className="Board__slide">
+                    <Edito content={this.props.datas.text[5].zone_3} positionTop="50%"></Edito>
+                    <Element name="CHAP5_IMG1.png" index="p1" positionLeft="0%"  ></Element>
+                </div>
+                 <div className="Board__slide">
+                    <Edito content={this.props.datas.text[5].zone_4} positionTop="50%"></Edito>
+                    <Element name="CHAP5_IMG2.png" index="p1" positionLeft="0%"  ></Element>
+                    <Element name="CHAP5_IMG3.png" index="p1" positionLeft="0%"  ></Element>
+                    <Element name="CHAP5_IMG4.png" index="p1" positionLeft="0%"  ></Element>
+                    <Element name="CHAP5_IMG5.png" index="p1" positionLeft="0%"  ></Element>
+                </div>
+                 <div className="Board__slide">
+                    <Edito content={this.props.datas.text[5].zone_5} positionTop="50%"></Edito>
+                    <Element name="CHAP5_IMG6.png" index="p1" positionLeft="0%"  ></Element>
+                </div>
+                 <div className="Board__slide">
+                    <Edito content={this.props.datas.text[5].zone_6} positionTop="50%"></Edito>
+                    <Element name="CHAP5_IMG7.png" index="p1" positionLeft="0%"  ></Element>
+                </div>
+
+                {/* CHAP 6 - La vie de l'étoile montant du handisport français */}
+
+                <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
+                    <Skew position="left" name="CHAP6__TITRE.png" bg="CHAP6__OUVERTURE.png"></Skew>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[6].zone_1} positionTop="50%"></Edito>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[6].zone_2} positionTop="50%"></Edito>
+                </div>
+                 <div className="Board__slide Board__slide--top">
+                    <Edito content={this.props.datas.text[6].zone_3} positionTop="50%"></Edito>
+                    <Element name="CHAP6_IMG1.png" index="p1" positionLeft="0%"  ></Element>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[6].zone_4} positionTop="50%"></Edito>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[6].zone_5} positionTop="50%"></Edito>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[6].zone_6} positionTop="50%"></Edito>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[6].zone_7} positionTop="50%"></Edito>
+                </div>
+
+                {/* CHAP 7 - Conclusion */}
+
+                <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
+                    <Skew position="left" name="CHAP7__TITRE.png" bg="CHAP7_OUVERTURE.png"></Skew>
+                </div>
+                
+                <div className="Board__slide only_blue black">
+                    <Masthead />
+                </div> 
+                {/*
                  <div className="Board__slide Board__slide--top">
                     <Element name="FOND2.png" index="p2" positionLeft="-10%"  ></Element>
                 </div>
@@ -91,9 +258,9 @@ export default class Board extends Component {
                 <div className="Board__slide Board__slide--top js-board-doubleslide board-small-slide" style={!mobile ? {minWidth: '65vh'} : {}}>
                     <Element name="FOND22.png" positionLeft="35%"></Element>
                     <Element name="CHAP00-CITATION2.png"  index="p1" positionLeft="10%"></Element>
-                </div>
+                </div> */}
 
-                {/* CHAP 1 */}
+                {/* CHAP 1
                 <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
                     <Skew position="left" name="CHAP01-TITRE.png" bg="CHAP01-OUVERTURE.png"></Skew>
                 </div>
@@ -154,7 +321,7 @@ export default class Board extends Component {
                 </div>
 
                 {/* CHAP 2 */}
-
+                {/*
                 <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
                     <Skew position="left" name="CHAP02-TITRE.png" bg="CHAP02-OUVERTURE.png"></Skew>
                 </div>
@@ -213,7 +380,7 @@ export default class Board extends Component {
                 </div>
 
                 {/* CHAP 3 */}
-
+                {/*
                 <div className="Board__slide red board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
                     <Skew position="left" name="CHAP03-TITRE.png" bg="CHAP03-OUVERTURE.png"></Skew>
                 </div>
@@ -253,7 +420,7 @@ export default class Board extends Component {
                 </div>
 
                 {/* CHAP04 - Conclusion */}
-
+                {/*
                 <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
                     <Skew position="left" name="CHAP04-TITRE.png" bg="CHAP04-OUVERTURE.png"></Skew>
                 </div>
@@ -297,7 +464,7 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide only_blue black">
                     <Masthead />
-                </div>
+                </div> */}
             </div>
         )
     }
