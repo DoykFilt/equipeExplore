@@ -42,6 +42,7 @@ function getSlideWidthFactor(currentOffset) {
 function setProgression(offset) {
     var boardWidth = parseInt(document.getElementById('board').offsetWidth, 10);
     var progression = (Math.abs(offset) + document.documentElement.clientWidth) * 100 / boardWidth;
+    // var progression = (Math.abs(offset) ) * 100 / boardWidth;
 
     document.getElementById('progressbar').style.width = progression + '%';
 }
@@ -87,6 +88,30 @@ var move = {
 		
     }
 };
+
+(function(){
+    window.addEventListener("keypress", (event)=>{
+        console.log(`key "${event.key}" pressed`);
+        switch(event.key)
+        {
+            case "e":
+                const end_offset = parseInt(document.getElementById('board').offsetWidth * -1 + document.documentElement.clientWidth, 10);
+                move.to(end_offset);
+                break;
+            case "b":
+                const begining_offset = 0;
+                move.to(begining_offset);
+                break;
+            case "+":
+                move.next();
+                break;
+            case "-":
+                move.prev();
+                break;
+            default:
+        }
+    });
+})();
 
 module.exports = move;
 

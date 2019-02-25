@@ -35,7 +35,7 @@ export default class App extends Component {
 
         function clickBoard() {
             if (Modernizr.hiddenscroll) {
-                swipeLeft();
+            //     swipeLeft();
             }
         }
 
