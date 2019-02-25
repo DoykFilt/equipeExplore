@@ -42,6 +42,7 @@ function getSlideWidthFactor(currentOffset) {
 function setProgression(offset) {
     var boardWidth = parseInt(document.getElementById('board').offsetWidth, 10);
     var progression = (Math.abs(offset) + document.documentElement.clientWidth) * 100 / boardWidth;
+    // var progression = (Math.abs(offset) ) * 100 / boardWidth;
 
     document.getElementById('progressbar').style.width = progression + '%';
 }
