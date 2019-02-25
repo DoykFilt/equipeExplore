@@ -6,6 +6,7 @@ import StaticElement from '../StaticElement/StaticElement';
 import Skew from '../Skew/Skew';
 import Video from '../Video/Video';
 import Masthead from '../Masthead/Masthead';
+import Audio from "../Audio/Audio";
 import './Board.css';
 
 

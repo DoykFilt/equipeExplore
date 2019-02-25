@@ -1,0 +1,41 @@
+@import "../../shared";
+
+.Audio {
+    position:absolute;
+    z-index:100;
+    top:0;
+    left:0;
+    height:inherit;
+    transition:left $effect-slide-duration $effect-slide;
+
+    .Board__slide--first & {
+        left:50%;
+        transform:translateX(-50%);
+    }
+
+    html.no-hiddenscroll & {
+        transition:left $effect-scroll-duration $effect-scroll;
+    }
+
+    img {
+        height:104%;
+        margin-top:-2%;
+    }
+
+    &--zm2 {
+        z-index:100;
+    }
+
+    &--zm1 {
+        z-index:101;
+    }
+
+    &--zp1 {
+        z-index:102;
+    }
+
+    &--zp2 {
+        z-index:103;
+    }
+
+}
