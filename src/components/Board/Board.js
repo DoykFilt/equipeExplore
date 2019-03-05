@@ -67,14 +67,15 @@ export default class Board extends Component {
                 {/* CHAP 0 - Introduction */}
 
                 <div className="Board__slide">
-                    <Edito content={this.props.datas.text[0].zone_1} positionTop="50%"></Edito>
+                    <Element name="CHAP0_CIT1.png" index="p1" positionTop="5%"  ></Element>
+                    <Edito content={this.props.datas.text[0].zone_1} positionTop="25%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Edito content={this.props.datas.text[0].zone_2} positionTop="50%"></Edito>
+                    <Edito content={this.props.datas.text[0].zone_2} positionTop="25%"></Edito>
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[0].zone_3} positionTop="50%"></Edito>
-                    <Element name="CHAP0_IMG1.png" index="p1" positionLeft="0%"  ></Element>
+                    <Element name="CHAP0_IMG1.png" index="p1" positionLeft="20%"  ></Element>
                 </div>
 
                 {/* CHAP 1 - Les championnats de France de Thionville */}
