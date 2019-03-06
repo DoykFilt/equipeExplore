@@ -4,7 +4,7 @@ import Edito from '../Edito/Edito';
 import Element from '../Element/Element';
 // import StaticElement from '../StaticElement/StaticElement';
 import Skew from '../Skew/Skew';
-// import Video from '../Video/Video';
+import Video from '../Video/Video';
 import Masthead from '../Masthead/Masthead';
 // import Audio from "../Audio/Audio";
 import './Board.css';
@@ -67,15 +67,15 @@ export default class Board extends Component {
                 {/* CHAP 0 - Introduction */}
 
                 <div className="Board__slide">
-                    <Element name="CHAP0_CIT1.png" index="p1" positionTop="5%"  ></Element>
-                    <Edito content={this.props.datas.text[0].zone_1} positionTop="25%"></Edito>
+                    <Element name="CHAP0_CIT1.png" index="p1" positionLeft="5%"  ></Element>
+                    <Edito content={this.props.datas.text[0].zone_1} positionTop="40%"></Edito>
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[0].zone_2} positionTop="25%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Edito content={this.props.datas.text[0].zone_3} positionTop="50%"></Edito>
-                    <Element name="CHAP0_IMG1.png" index="p1" positionLeft="20%"  ></Element>
+                    <Edito content={this.props.datas.text[0].zone_3} positionTop="15%"></Edito>
+                    <Element name="CHAP0_IMG1.png" index="p2" positionLeft="0%"  ></Element>
                 </div>
 
                 {/* CHAP 1 - Les championnats de France de Thionville */}
@@ -83,24 +83,28 @@ export default class Board extends Component {
                 <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
                     <Skew position="left" name="CHAP1__TITRE.png" bg="CHAP1__OUVERTURE.png"></Skew>
                 </div>
-                <div className="Board__slide">
-                    <Edito content={this.props.datas.text[1].zone_1} positionTop="50%"></Edito>
+                <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
+                    <Element name="CHAP1_FOND1.png" index="m1" positionLeft="40%"></Element>
                 </div>
                 <div className="Board__slide">
-                    <Edito content={this.props.datas.text[1].zone_2} positionTop="50%"></Edito>
+                    <Edito content={this.props.datas.text[1].zone_1} positionTop="65%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Edito content={this.props.datas.text[1].zone_3} positionTop="50%"></Edito>
+                    <Edito content={this.props.datas.text[1].zone_2} positionTop="30%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Edito content={this.props.datas.text[1].zone_4} positionTop="50%"></Edito>
+                    <Edito content={this.props.datas.text[1].zone_3} positionTop="6%"></Edito>
+                    <Video id="pejk_FnHRY_tvBRYknSvLlgdyZ0JVqZUMKaCRGQ" positionTop="68%" maxHeight="540" ratio="1.2"></Video>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[1].zone_4} positionLeft="20%" positionTop="30%"></Edito>
                 </div>
                  <div className="Board__slide">
-                    <Edito content={this.props.datas.text[1].zone_5} positionTop="50%"></Edito>
+                    <Edito content={this.props.datas.text[1].zone_5} positionTop="60%"></Edito>
                     <Element name="CHAP1_IMG1.png" index="p1" positionLeft="0%"  ></Element>
                 </div>
                  <div className="Board__slide">
-                    <Edito content={this.props.datas.text[1].zone_6} positionTop="50%"></Edito>
+                    <Edito content={this.props.datas.text[1].zone_6} positionTop="10%"></Edito>
                     <Element name="CHAP1_IMG2.png" index="p1" positionLeft="0%"  ></Element>
                 </div>
 
@@ -109,25 +113,32 @@ export default class Board extends Component {
                 <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
                     <Skew position="left" name="CHAP2__TITRE.png" bg="CHAP2__OUVERTURE.png"></Skew>
                 </div>
-                <div className="Board__slide">
-                    <Edito content={this.props.datas.text[2].zone_1} positionTop="50%"></Edito>
+                <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
+                    <Element name="CHAP2_FOND1test.png" index="m1" positionLeft="-40%"></Element>
                 </div>
                 <div className="Board__slide">
-                    <Edito content={this.props.datas.text[2].zone_2} positionTop="50%"></Edito>
+                    <Edito content={this.props.datas.text[2].zone_1} positionTop="10%"></Edito>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[2].zone_2} positionTop="35%"></Edito>
                 </div>
                  <div className="Board__slide">
                     <Edito content={this.props.datas.text[2].zone_3} positionTop="50%"></Edito>
                     <Element name="CHAP2_IMG1.png" index="p1" positionLeft="0%"  ></Element>
+                    <Element name="CHAP2_FOND1test.png" index="m1" positionLeft="-50%"></Element>
                 </div>
                 <div className="Board__slide">
-                    <Edito content={this.props.datas.text[2].zone_4} positionTop="50%"></Edito>
+                    <Element name="CHAP2_CIT1.png" index="p1" positionLeft="0%"  ></Element>
+                    <Edito content={this.props.datas.text[2].zone_4} positionTop="20%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Edito content={this.props.datas.text[2].zone_5} positionTop="50%"></Edito>
+                    <Edito content={this.props.datas.text[2].zone_5} positionTop="30%"></Edito>
                 </div>
                  <div className="Board__slide">
-                    <Edito content={this.props.datas.text[2].zone_6} positionTop="50%"></Edito>
+                    <Edito content={this.props.datas.text[2].zone_6} positionTop="60%"></Edito>
                     <Element name="CHAP2_IMG2.png" index="p1" positionLeft="0%"  ></Element>
+                    <Element name="CHAP2_FOND1test.png" index="m1" positionLeft="-50%"></Element>
+                    
                 </div>
 
                 {/* CHAP 3 - Une vie qui bascule */}
@@ -135,19 +146,23 @@ export default class Board extends Component {
                 <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
                     <Skew position="left" name="CHAP3__TITRE.png" bg="CHAP3__OUVERTURE.png"></Skew>
                 </div>
-                <div className="Board__slide">
-                    <Edito content={this.props.datas.text[3].zone_1} positionTop="50%"></Edito>
+                <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
                 </div>
                 <div className="Board__slide">
-                    <Edito content={this.props.datas.text[3].zone_2} positionTop="50%"></Edito>
+                    <Edito content={this.props.datas.text[3].zone_1} positionTop="10%"></Edito>
+                    <Element name="CHAP3_IMG1.png" index="m1" positionLeft="-20%"  ></Element>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[3].zone_2} positionTop="35%" positionLeft="50%"></Edito>
                 </div>
 
                 <div className="Board__slide">
-                    <Edito content={this.props.datas.text[3].zone_3} positionTop="50%"></Edito>
+                    <Element name="CHAP3_CIT1.png" index="m1" positionLeft="20%"  ></Element>
+                    <Edito content={this.props.datas.text[3].zone_3} positionTop="55%"></Edito>
                 </div>
 
                 <div className="Board__slide">
-                    <Edito content={this.props.datas.text[3].zone_4} positionTop="50%"></Edito>
+                    <Edito content={this.props.datas.text[3].zone_4} positionTop="45%"></Edito>
                 </div>
 
 
