@@ -2,12 +2,13 @@ import config from '../../config';
 import React, { Component } from 'react';
 import Edito from '../Edito/Edito';
 import Element from '../Element/Element';
-// import StaticElement from '../StaticElement/StaticElement';
+import StaticElement from '../StaticElement/StaticElement';
 import Skew from '../Skew/Skew';
-// import Video from '../Video/Video';
+import Video from '../Video/Video';
 import Masthead from '../Masthead/Masthead';
-// import Audio from "../Audio/Audio";
+import Audio from "../Audio/Audio";
 import './Board.css';
+import Background from "../background/Background";
 
 
 function getSizes() {
@@ -152,24 +153,41 @@ export default class Board extends Component {
 
 
                 {/* CHAP 4 - Une reconstruction grâce au sport */}
-
                 <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
                     <Skew position="left" name="CHAP4__TITRE.png" bg="CHAP4__OUVERTURE.png"></Skew>
                 </div>
+                <div className="Board__slide background_chapter_4">
+                </div>
+                <div className="Board__slide"></div>
                 <div className="Board__slide">
-                    <Edito content={this.props.datas.text[4].zone_1} positionTop="50%"></Edito>
+                    <Element name="CHAP4_IMG1.png" index="p1"></Element>
                 </div>
                 <div className="Board__slide">
-                    <Edito content={this.props.datas.text[4].zone_2} positionTop="50%"></Edito>
+                    <Edito content={this.props.datas.text[4].zone_1} positionTop="25%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Edito content={this.props.datas.text[4].zone_3} positionTop="50%"></Edito>
+                    <Video id="peR0oNeByqRjQjcaPCwkpXgc1gQouMmS6MTeRGQ" maxHeight="130" ratio="2" positionTop="30%" positionLeft="150%"></Video>
+                    <Edito content={this.props.datas.text[4].zone_2} positionTop="65%"></Edito>
+                </div>
+                <div className="Board__slide">
+                    {/* <Audio name=""></Audio> */}
+                    <Edito content="[Audio placeholder]" positionTop="50%"></Edito>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[4].zone_3} positionTop="25%"></Edito>
+                </div>
+                <div className="Board__slide">
+                    {/* <Audio name=""></Audio> */}
+                    <Edito content="[Audio placeholder]" positionTop="50%"></Edito>
                 </div>
 
                 {/* CHAP 5 - Théo Curin, sportif à temps plein */}
 
-                <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
+                <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}} >
                     <Skew position="left" name="CHAP5__TITRE.png" bg="CHAP5__OUVERTURE.png"></Skew>
+                </div>
+                <div className="Board__slide">
+                    <Background name="1.png" width="2000px"></Background>
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[5].zone_1} positionTop="50%"></Edito>
