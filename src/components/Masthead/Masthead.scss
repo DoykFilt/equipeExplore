@@ -46,7 +46,7 @@
         text-align:left;
         vertical-align:top;
         @include font(regularCond, 18, 20);
-        color:$color-white;
+        color:$color-black  ;
         padding-top:10px;
 
         @media (orientation: landscape) and (min-width: $bp-phablet) {

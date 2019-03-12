@@ -138,7 +138,6 @@ export default class Board extends Component {
                     <Edito content={this.props.datas.text[2].zone_6} positionTop="60%"></Edito>
                     <Element name="CHAP2_IMG2.png" index="p1" positionLeft="0%"  ></Element>
                     <Element name="CHAP2_FOND1test.png" index="m1" positionLeft="-50%"></Element>
-                    
                 </div>
 
                 {/* CHAP 3 - Une vie qui bascule */}
@@ -157,12 +156,15 @@ export default class Board extends Component {
                 </div>
 
                 <div className="Board__slide">
-                    <Element name="CHAP3_CIT1.png" index="m1" positionLeft="20%"  ></Element>
+                    <Element name="CHAP3_CIT1.png" index="m1" positionLeft="0%"  ></Element>
                     <Edito content={this.props.datas.text[3].zone_3} positionTop="55%"></Edito>
                 </div>
 
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[3].zone_4} positionTop="45%"></Edito>
+                </div>
+                <div className="Board__slide">
+                    <Video id="pMgpTMaiO_ThVWUwgRQs3EQK78hGHIqGYpj6RGQ" maxHeight="800" ratio="0.561"></Video>
                 </div>
 
 
@@ -217,36 +219,48 @@ export default class Board extends Component {
                 <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
                     <Skew position="left" name="CHAP6__TITRE.png" bg="CHAP6__OUVERTURE.png"></Skew>
                 </div>
-                <div className="Board__slide">
-                    <Edito content={this.props.datas.text[6].zone_1} positionTop="50%"></Edito>
+                <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
                 </div>
                 <div className="Board__slide">
-                    <Edito content={this.props.datas.text[6].zone_2} positionTop="50%"></Edito>
+                    <Edito content={this.props.datas.text[6].zone_1} positionTop="15%"></Edito>
+                </div>
+                <div className="Board__slide">
+                    <Edito content={this.props.datas.text[6].zone_2} positionTop="25%"></Edito>
                 </div>
                  <div className="Board__slide Board__slide--top">
-                    <Edito content={this.props.datas.text[6].zone_3} positionTop="50%"></Edito>
                     <Element name="CHAP6_IMG1.png" index="p1" positionLeft="0%"  ></Element>
+                    <Edito content={this.props.datas.text[6].zone_3} positionTop="50%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Edito content={this.props.datas.text[6].zone_4} positionTop="50%"></Edito>
+                    <Edito content={this.props.datas.text[6].zone_4} positionTop="15%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Edito content={this.props.datas.text[6].zone_5} positionTop="50%"></Edito>
+                    <Edito content={this.props.datas.text[6].zone_5} positionTop="15%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Edito content={this.props.datas.text[6].zone_6} positionTop="50%"></Edito>
+                    <Edito content={this.props.datas.text[6].zone_6} positionTop="60%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Edito content={this.props.datas.text[6].zone_7} positionTop="50%"></Edito>
+                    <Edito content={this.props.datas.text[6].zone_7} positionTop="15%"></Edito>
+                    <Element name="CHAP6_IMG2.png" index="p1" positionLeft="0%"  ></Element>
                 </div>
 
                 {/* CHAP 7 - Conclusion */}
 
                 <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
-                    <Skew position="left" name="CHAP7__TITRE.png" bg="CHAP7_OUVERTURE.png"></Skew>
+                    <Skew position="left" name="CHAP7__TITRE.png" bg="CHAP7__OUVERTURE.png"></Skew>
                 </div>
-                
-                <div className="Board__slide only_blue black">
+                <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
+                </div>                
+                <div className="Board__slide">
+                    <Element name="CHAP7__CIT1.png" index="p1" positionLeft="0%"  ></Element>
+                    <Edito content={this.props.datas.text[7].zone_1} positionTop="35%"></Edito>
+                </div>
+                <div className="Board__slide">
+                    <Element name="CHAP7__CIT2.png" index="p1" positionLeft="-15%"  ></Element>
+                    <Edito content={this.props.datas.text[7].zone_2} positionTop="45%"></Edito>
+                </div>
+                <div className="Board__slide">
                     <Masthead />
                 </div> 
                 {/*
