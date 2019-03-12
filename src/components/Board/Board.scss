@@ -54,7 +54,16 @@
 
 .background_chapter_4 {
     background-image: url('/img/2.png');
-    background-repeat: repeat;
+    background-repeat: round;
+    width: 4500px;
+    height: 100%;
+    position: absolute;
+}
+
+.background_chapter_5 {
+    background-image: url('/img/1.png');
+    background-repeat: space;
+    background-size: contain;
     width: 4500px;
     height: 100%;
     position: absolute;
