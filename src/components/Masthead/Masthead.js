@@ -13,29 +13,32 @@ export default class Element extends Component {
         return (
             <div className="Masthead">
                 <div className="Masthead__item">
-                    <span className="Masthead__label white">Conçu, écrit et réalisé par</span>
-                    <span className="Masthead__details">Hugo Girard, Valériane Gouban, Adrien Petiteau, Romain Pichon, Ewen Renou<a href="//twitter.com/sciencespoEDJ" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a></span>
-                </div>
-                {/* <div className="Masthead__item">
-                    <span className="Masthead__label white">Traductions</span>
-                    <span className="Masthead__details">Caroline Bossard, Sigi Hofmann, Annie Métral, Mathilde Saliou, Yann Schreiber, Victoria Wegner</span>
-                </div> */}
-                <div className="Masthead__item">
-                    <span className="Masthead__label white">Développeur</span>
-                    <span className="Masthead__details">Thibaud Beaufils, Jean Hilleriteau<a href="//twitter.com/iron_dev" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a></span>
+                    <span className="Masthead__label black">Réalisation</span>
+                    <span className="Masthead__details">
+                    Hugo Girard <a href="//twitter.com/@HugoGirard_" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a>
+                    Valériane Gouban <a href="//twitter.com/@ValerianeGouban" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a>
+                    Adrien Petiteau <a href="//twitter.com/@AdrienPetiteau" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a>
+                    Romain Pichon <a href="//twitter.com/@RomainPichon86" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a>
+                    Ewen Renou <a href="//twitter.com/@RenouEwen" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a></span>
                 </div>
                 <div className="Masthead__item">
-                    <span className="Masthead__label"></span>
-                    <span className="Masthead__details"></span>
+                    <span className="Masthead__label white">Photos</span>
+                    <span className="Masthead__details">Ecole publique de journalisme de Tours, Agence France-Presse, Fédération Française de Handisport, Parents de Théo Curin</span>
                 </div>
-                <div className="Masthead__item Masthead__item--full">
-                    <span className="Masthead__details"><span className="Masthead__label white">Photos :</span></span>
+                <div className="Masthead__item">
+                    <span className="Masthead__label white">Vidéos</span>
+                    <span className="Masthead__details">Ecole publique de journalisme de Tours</span>
                 </div>
-                <div className="Masthead__item Masthead__item--full">
-                    <span className="Masthead__details"><span className="Masthead__label white">Vidéos :</span></span>
+                <div className="Masthead__item">
+                    <span className="Masthead__label">Développeurs</span>
+                    <span className="Masthead__details black">
+                    Thibaud Beaufils
+                    Jean Hilleriteau
+                    </span>
                 </div>
-                <div className="Masthead__item Masthead__item--full">
-                    <span className="Masthead__details"><span className="Masthead__label white">Remerciements :</span></span>
+                <div className="Masthead__item">
+                    <span className="Masthead__label white">Remerciements</span>
+                    <span className="Masthead__details">Anne Bayard, Amandine Leclercq, Lycée Valery Larbaud de Cusset (Allier), Stade aquatique de Vichy Communauté, CREPS Vichy Auvergne, Centre de Loisirs Nautiques de Thionville.</span>
                 </div>
             </div>
         );
