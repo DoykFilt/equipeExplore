@@ -26,6 +26,10 @@ export default class Element extends Component {
                     <span className="Masthead__details">Ecole publique de journalisme de Tours, Agence France-Presse, Fédération Française de Handisport, Parents de Théo Curin</span>
                 </div>
                 <div className="Masthead__item">
+                    <span className="Masthead__label white">Illustrations</span>
+                    <span className="Masthead__details">...</span>
+                </div>
+                <div className="Masthead__item">
                     <span className="Masthead__label white">Vidéos</span>
                     <span className="Masthead__details">Ecole publique de journalisme de Tours</span>
                 </div>

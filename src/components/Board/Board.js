@@ -2,13 +2,11 @@ import config from '../../config';
 import React, { Component } from 'react';
 import Edito from '../Edito/Edito';
 import Element from '../Element/Element';
-import StaticElement from '../StaticElement/StaticElement';
 import Skew from '../Skew/Skew';
 import Video from '../Video/Video';
 import Masthead from '../Masthead/Masthead';
 import Audio from "../Audio/Audio";
 import './Board.css';
-import Background from "../background/Background";
 
 
 function getSizes() {
@@ -95,7 +93,7 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[1].zone_3} positionTop="6%"></Edito>
-                    <Video id="pejk_FnHRY_tvBRYknSvLlgdyZ0JVqZUMKaCRGQ" positionTop="68%" maxHeight="540" ratio="1.2"></Video>
+                    <Video id="pejk_FnHRY_tvBRYknSvLlgdyZ0JVqZUMKaCRGQ" positionTop="35%" maxHeight="540" ratio="1.2"></Video>
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[1].zone_4} positionLeft="20%" positionTop="30%"></Edito>
@@ -150,7 +148,7 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[3].zone_1} positionTop="10%"></Edito>
-                    <Element name="CHAP3_IMG1.png" index="m1" positionLeft="-20%"  ></Element>
+                    <Element name="CHAP3_IMG1.png" index="p1" positionLeft="0%"  ></Element>
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[3].zone_2} positionTop="35%" positionLeft="50%"></Edito>
@@ -165,7 +163,7 @@ export default class Board extends Component {
                     <Edito content={this.props.datas.text[3].zone_4} positionTop="45%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Video id="pMgpTMaiO_ThVWUwgRQs3EQK78hGHIqGYpj6RGQ" maxHeight="800" ratio="0.561"></Video>
+                    <Video id="pMgpTMaiO_ThVWUwgRQs3EQK78hGHIqGYpj6RGQ" positionTop="25%" maxHeight="500" ratio="1.2"></Video>
                 </div>
 
 
@@ -173,9 +171,9 @@ export default class Board extends Component {
                 <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
                     <Skew position="left" name="CHAP4__TITRE.png" bg="CHAP4__OUVERTURE.png"></Skew>
                 </div>
-                <div className="Board__slide background_chapter_4">
+                <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
+                    <Element name="CHAP2_FOND1test.png" index="m1" positionLeft="-30%"></Element>
                 </div>
-                <div className="Board__slide"></div>
                 <div className="Board__slide">
                     <Element name="CHAP4_IMG1.png" index="p1"></Element>
                 </div>
@@ -183,8 +181,9 @@ export default class Board extends Component {
                     <Edito content={this.props.datas.text[4].zone_1} positionTop="25%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Video id="peR0oNeByqRjQjcaPCwkpXgc1gQouMmS6MTeRGQ" maxHeight="130" ratio="2" positionTop="30%" positionLeft="150%"></Video>
                     <Edito content={this.props.datas.text[4].zone_2} positionTop="65%"></Edito>
+                    <Video id="peR0oNeByqRjQjcaPCwkpXgc1gQouMmS6MTeRGQ" maxHeight="130" ratio="2" positionTop="15%" positionLeft="150%"></Video>
+                    <Element name="CHAP2_FOND1test.png" index="m1" positionLeft="-30%"></Element>
                 </div>
                 <div className="Board__slide">
                     {/* <Audio name=""></Audio> */}
@@ -196,19 +195,17 @@ export default class Board extends Component {
                 <div className="Board__slide">
                     {/* <Audio name=""></Audio> */}
                     <Edito content="[Audio placeholder]" positionTop="50%"></Edito>
+                    <Element name="CHAP2_FOND1test.png" index="m1" positionLeft="-30%"></Element>
                 </div>
 
-                {/* CHAP 5 - Théo Curin, sportif à temps plein */}
+                {/* CHAP 5 - Théo Curin, sportif à temps plein*/}
 
                 <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}} >
                     <Skew position="left" name="CHAP5__TITRE.png" bg="CHAP5__OUVERTURE.png"></Skew>
                 </div>
-                <div className="Board__slide background_chapter_5">
+                <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
+                    <Element name="CHAP1_FOND1.png" index="m1" positionLeft="40%"></Element>
                 </div>
-                <div className="Board__slide"></div>
-                {/* <div className="Board__slide">
-                    <Background name="1.png" width="2000px"></Background>
-                </div> */}
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[5].zone_1} positionTop="25%"></Edito>
                 </div>
@@ -221,15 +218,17 @@ export default class Board extends Component {
                 </div>
                  <div className="Board__slide">
                     <Edito content={this.props.datas.text[5].zone_4} positionTop="20%"></Edito>
-                    <Element name="CHAP5_IMG2.png" index="p1" positionLeft="0%" positionTop="60%"  ></Element>
+                    <Element name="CHAP5_IMG2.png" index="p1" positionLeft="-20%" positionTop="60%"  ></Element>
+                </div>
+                <div className="Board__slide">
+                    <Video id="pbNFAQYV5l1w56SpIW7bKbQBGCKBUP4CO9ceSGQ" maxHeight="130" ratio="2" positionTop="25%" positionLeft="150%"></Video>
                 </div>
                  <div className="Board__slide">
-                    <Edito content={this.props.datas.text[5].zone_5} positionTop="50%"></Edito>
-                    <Element name="CHAP5_IMG6.png" index="p1" positionLeft="0%"  ></Element>
+                    <Edito content={this.props.datas.text[5].zone_5} positionTop="20%"></Edito>
+                    <Element name="CHAP5_IMG3.png" index="p1" positionLeft="0%"  ></Element>
                 </div>
                  <div className="Board__slide">
-                    <Edito content={this.props.datas.text[5].zone_6} positionTop="50%"></Edito>
-                    <Element name="CHAP5_IMG7.png" index="p1" positionLeft="0%"  ></Element>
+                    <Edito content={this.props.datas.text[5].zone_6} positionTop="30%"></Edito>
                 </div>
 
                 {/* CHAP 6 - La vie de l'étoile montant du handisport français */}
@@ -254,6 +253,7 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[6].zone_5} positionTop="15%"></Edito>
+                    {/* <Audio name=""></Audio> */}
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[6].zone_6} positionTop="60%"></Edito>
