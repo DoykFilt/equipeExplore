@@ -190,9 +190,7 @@ export default class Board extends Component {
                     <Element name="CHAP2_FOND1.png" index="m1" positionLeft="-30%"></Element>
                 </div>
                 <div className="Board__slide">
-                    <Audio name="Thinklink_CHAP 4_Emeline" audio_name="Thinklink-CHAP-4_Emeline.mp3" image_name="emeline.png" image_paused_name="papa.png" positionTop="10%" positionLeft="10%" maxHeight="30%"></Audio>
-                    <Audio name="Thinklink_CHAP_4_Maltrait" audio_name="Thinklink-CHAP-4_Maltrait.mp3" image_name="maltrait.png" image_paused_name="emeline.png" positionTop="60%" positionLeft="10%" maxHeight="30%"></Audio>
-                    <Audio name="Thinklink_CHAP 4_test" audio_name="Thinklink-CHAP-4_Père-de-Théo.mp3" image_name="papa.png" image_paused_name="nathan.png" positionTop="10%" positionLeft="80%" maxHeight="30%"></Audio>
+                    <Audio name="Thinklink_CHAP_4_Maltrait" audio_name="Thinklink-CHAP-4_Maltrait.mp3" image_name="maltrait.png" image_paused_name="Maltrait_Pause.png" positionTop="40%" positionLeft="50%" maxHeight="50%"></Audio>
                     {/* <Edito content="[Audio placeholder]" positionTop="50%"></Edito> */}
                 </div>
                 <div className="Board__slide">
@@ -201,7 +199,10 @@ export default class Board extends Component {
                 <div className="Board__slide">
                     <Element name="CHAP2_FOND1.png" index="m1" positionLeft="-50%"></Element>
                     {/* <Audio name=""></Audio> */}
-                    <Edito content="[Audio placeholder]" positionTop="50%"></Edito>
+                    <Audio name="Thinklink_CHAP 4_Emeline" audio_name="Thinklink-CHAP-4_Emeline.mp3" image_name="emeline.png" image_paused_name="Emeline_Pause.png" positionTop="10%" positionLeft="10%" maxHeight="30%"></Audio>
+                    <Audio name="Thinklink_CHAP 4_Nathan" audio_name="Thinklink-CHAP-4_Nathan.mp3" image_name="nathan.png" image_paused_name="Nathan_Equipe_explore_Pause.png" positionTop="30%" positionLeft="50%" maxHeight="30%"></Audio>
+                    <Audio name="Thinklink_CHAP 4_Pere" audio_name="Thinklink-CHAP-4_Père-de-Théo.mp3" image_name="Dominique_Curin.png" image_paused_name="Dominique_Curin_Pause.png" positionTop="60%" positionLeft="10%" maxHeight="30%"></Audio>
+                    {/* <Edito content="[Audio placeholder]" positionTop="50%"></Edito> */}
                     <Element name="CHAP2_FOND1.png" index="m1" positionLeft="-30%"></Element>
                 </div>
 
@@ -226,7 +227,7 @@ export default class Board extends Component {
                     <Element name="CHAP5_IMG1.png" index="p1" positionLeft="0%" positionTop="20%" ></Element>
                 </div>
                  <div className="Board__slide">
-                    <Edito content={this.props.datas.text[5].zone_4} positionTop="20%"></Edito>
+                    <Edito content={this.props.datas.text[5].zone_4} positionTop="15%"></Edito>
                     <Element name="CHAP5_IMG2.png" index="p1" positionLeft="-10%" positionTop="60%"  ></Element>
                 </div>
                 <div className="Board__slide">
@@ -265,6 +266,10 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[6].zone_5} positionTop="15%"></Edito>
+                    <Audio name="Thinklink_CHAP_6_Maltrait" audio_name="Thinklink-CHAP-6_Maltrait.mp3" image_name="maltrait.png" image_paused_name="Maltrait_Pause.png" positionTop="30%" positionLeft="10%" maxHeight="30%"></Audio>
+                    <Audio name="Thinklink_CHAP 6_Nathan" audio_name="Thinklink-CHAP-6_Nathan.mp3" image_name="nathan.png" image_paused_name="Nathan_Equipe_explore_Pause.png" positionTop="50%" positionLeft="50%" maxHeight="30%"></Audio>
+                    
+
                     {/* <Audio name=""></Audio> */}
                 </div>
                 <div className="Board__slide">
