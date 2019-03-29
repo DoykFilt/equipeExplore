@@ -173,7 +173,9 @@ export default class Board extends Component {
                 <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
                     <Skew position="left" name="CHAP4__TITRE.png" bg="CHAP4__OUVERTURE.png"></Skew>
                 </div>
-                <div className="Board__slide background_chapter_4">
+                {/* <div className="Board__slide"> */}
+                <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}}>
+                    <Element name="CHAP2_FOND1test.png" index="m1" positionLeft="-40%"></Element>
                 </div>
                 <div className="Board__slide"></div>
                 <div className="Board__slide">
@@ -183,17 +185,20 @@ export default class Board extends Component {
                     <Edito content={this.props.datas.text[4].zone_1} positionTop="25%"></Edito>
                 </div>
                 <div className="Board__slide">
+                    <Element name="CHAP2_FOND1test.png" index="m1" positionLeft="-50%"></Element>
                     <Video id="peR0oNeByqRjQjcaPCwkpXgc1gQouMmS6MTeRGQ" maxHeight="130" ratio="2" positionTop="30%" positionLeft="150%"></Video>
                     <Edito content={this.props.datas.text[4].zone_2} positionTop="65%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    {/* <Audio name=""></Audio> */}
-                    <Edito content="[Audio placeholder]" positionTop="50%"></Edito>
+                    <Audio name="Thinklink_CHAP 4_Emeline" audio_name="Thinklink-CHAP-4_Emeline.mp3" image_name="emeline.png" image_paused_name="emeline.png" positionTop="10%" maxHeight="30%"></Audio>
+                    <Audio name="Thinklink_CHAP_4_Maltrait" audio_name="Thinklink-CHAP-4_Maltrait.mp3" image_name="maltrait.png" image_paused_name="maltrait.png" positionTop="60%" maxHeight="30%"></Audio>
+                    {/* <Edito content="[Audio placeholder]" positionTop="50%"></Edito> */}
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[4].zone_3} positionTop="25%"></Edito>
                 </div>
                 <div className="Board__slide">
+                    <Element name="CHAP2_FOND1test.png" index="m1" positionLeft="-50%"></Element>
                     {/* <Audio name=""></Audio> */}
                     <Edito content="[Audio placeholder]" positionTop="50%"></Edito>
                 </div>
@@ -203,10 +208,9 @@ export default class Board extends Component {
                 <div className="Board__slide board-small-slide" style={!mobile ? {minWidth: '55vh'} : {}} >
                     <Skew position="left" name="CHAP5__TITRE.png" bg="CHAP5__OUVERTURE.png"></Skew>
                 </div>
-                <div className="Board__slide"></div>
-                {/* <div className="Board__slide">
-                    <Background name="1.png" width="2000px"></Background>
-                </div> */}
+                <div className="Board__slide">
+                    <Element name="CHAP1_FOND1.png" index="m1" positionLeft="40%"></Element>
+                </div>
                 <div className="Board__slide background_chapter_5">
                     <Edito content={this.props.datas.text[5].zone_1} positionTop="25%"></Edito>
                 </div>
@@ -229,8 +233,8 @@ export default class Board extends Component {
                     <Element name="CHAP5_IMG6.png" index="p1" positionLeft="0%" positionTop="70" ></Element>
                 </div>
                  <div className="Board__slide background_chapter_5">
-                    <Edito content={this.props.datas.text[5].zone_6} positionTop="50%"></Edito>
-                    <Element name="CHAP5_IMG7.png" index="p1" positionLeft="0%"  ></Element>
+                    <Edito content={this.props.datas.text[5].zone_6} positionTop="10%"></Edito>
+                    {/* <Element name="CHAP5_IMG7.png" index="p1" positionLeft="0%" positionTop="65"  ></Element> */}
                 </div>
 
                 {/* CHAP 6 - La vie de l'étoile montant du handisport français */}
