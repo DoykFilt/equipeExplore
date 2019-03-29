@@ -1,6 +1,7 @@
 import config from '../../config';
 import React, { Component } from 'react';
 import './Video.css';
+import { pause_all_audio } from "../Audio/Audio";
 
 require('../../js/external/dailymotion.js')();
 
@@ -101,6 +102,7 @@ export default class Edito extends Component {
     }
 
     togglePlay = function (id, e) {
+        pause_all_audio();
         playersObj[id].togglePlay();
         e.stopPropagation();
     }
