@@ -27,7 +27,7 @@ export default class Element extends Component {
                 </div>
                 <div className="Masthead__item">
                     <span className="Masthead__label white">Illustrations</span>
-                    <span className="Masthead__details">...</span>
+                    <span className="Masthead__details">Salomé Fillon</span>
                 </div>
                 <div className="Masthead__item">
                     <span className="Masthead__label white">Vidéos</span>
