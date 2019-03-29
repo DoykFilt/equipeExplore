@@ -252,7 +252,7 @@ export default class Board extends Component {
                     <Element name="illustrations/ILLUS2_CHAP6_lignes_d_eau.png" index="m2" positionLeft="50%"></Element>
                     <Edito content={this.props.datas.text[6].zone_2} positionTop="35%"></Edito>
                 </div>
-                 <div className="Board__slide Board__slide--top">
+                <div className="Board__slide">
                     <Element name="CHAP6_IMG1.png" index="p1" positionLeft="0%"  ></Element>
                     <Edito content={this.props.datas.text[6].zone_3} positionTop="50%"></Edito>
                 </div>
