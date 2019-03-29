@@ -68,13 +68,14 @@ export default class Board extends Component {
                 <div className="Board__slide">
                     <Element name="CHAP0_CIT1.png" index="p1" positionLeft="5%"  ></Element>
                     <Edito content={this.props.datas.text[0].zone_1} positionTop="40%"></Edito>
+                    <Element name="illustrations/ILLUS6_CHAP1_nageur.png" index="m2" positionLeft="10%"></Element>
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[0].zone_2} positionTop="25%"></Edito>
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[0].zone_3} positionTop="15%"></Edito>
-                    <Element name="CHAP0_IMG1.png" index="p2" positionLeft="0%"  ></Element>
+                    <Element name="CHAP0_IMG1.png" index="p2" positionLeft="0%"></Element>
                 </div>
 
                 {/* CHAP 1 - Les championnats de France de Thionville */}
@@ -96,7 +97,8 @@ export default class Board extends Component {
                     <Video id="pejk_FnHRY_tvBRYknSvLlgdyZ0JVqZUMKaCRGQ" positionTop="35%" maxHeight="540" ratio="1.2"></Video>
                 </div>
                 <div className="Board__slide">
-                    <Edito content={this.props.datas.text[1].zone_4} positionLeft="20%" positionTop="30%"></Edito>
+                    <Edito content={this.props.datas.text[1].zone_4} positionLeft="20%" positionTop="25%"></Edito>
+                    <Element name="illustrations/ILLUS1_CHAP1_eclaboussures.png" index="m2" positionLeft="25%"></Element>
                 </div>
                  <div className="Board__slide">
                     <Edito content={this.props.datas.text[1].zone_5} positionTop="60%"></Edito>
@@ -117,8 +119,10 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[2].zone_1} positionTop="10%"></Edito>
+                    <Element name="illustrations/ILLUS7_CHAP2_podium.png" index="m2" positionLeft="10%"></Element>
                 </div>
                 <div className="Board__slide">
+                    <Element name="illustrations/ILLUS4_CHAP2_medaile.png" index="m2" positionLeft="20%"></Element>
                     <Edito content={this.props.datas.text[2].zone_2} positionTop="35%"></Edito>
                 </div>
                  <div className="Board__slide">
@@ -207,9 +211,11 @@ export default class Board extends Component {
                     <Element name="CHAP1_FOND1.png" index="m1" positionLeft="40%"></Element>
                 </div>
                 <div className="Board__slide">
+                    <Element name="illustrations/ILLUS3_CHAP5_lunettes.png" index="m2" positionLeft="50%"></Element>
                     <Edito content={this.props.datas.text[5].zone_1} positionTop="25%"></Edito>
                 </div>
                 <div className="Board__slide">
+                    <Element name="illustrations/ILLUS9_CHAP5_vestiaires.png" index="m2" positionLeft="50%"></Element>
                     <Edito content={this.props.datas.text[5].zone_2} positionTop="50%"></Edito>
                 </div>
                  <div className="Board__slide">
@@ -218,7 +224,7 @@ export default class Board extends Component {
                 </div>
                  <div className="Board__slide">
                     <Edito content={this.props.datas.text[5].zone_4} positionTop="20%"></Edito>
-                    <Element name="CHAP5_IMG2.png" index="p1" positionLeft="-20%" positionTop="60%"  ></Element>
+                    <Element name="CHAP5_IMG2.png" index="p1" positionLeft="-10%" positionTop="60%"  ></Element>
                 </div>
                 <div className="Board__slide">
                     <Video id="pbNFAQYV5l1w56SpIW7bKbQBGCKBUP4CO9ceSGQ" maxHeight="130" ratio="2" positionTop="25%" positionLeft="150%"></Video>
@@ -240,9 +246,11 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[6].zone_1} positionTop="15%"></Edito>
+                    <Element name="illustrations/ILLUS8_CHAP6_vagues.png" index="m2" positionLeft="-40%"></Element>
                 </div>
                 <div className="Board__slide">
-                    <Edito content={this.props.datas.text[6].zone_2} positionTop="25%"></Edito>
+                    <Element name="illustrations/ILLUS2_CHAP6_lignes_d_eau.png" index="m2" positionLeft="50%"></Element>
+                    <Edito content={this.props.datas.text[6].zone_2} positionTop="35%"></Edito>
                 </div>
                  <div className="Board__slide Board__slide--top">
                     <Element name="CHAP6_IMG1.png" index="p1" positionLeft="0%"  ></Element>
@@ -250,6 +258,7 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[6].zone_4} positionTop="15%"></Edito>
+                    <Element name="illustrations/ILLUS1_CHAP6_eclaboussures.png" index="m2" positionLeft="25%"></Element>
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[6].zone_5} positionTop="15%"></Edito>
@@ -257,6 +266,7 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[6].zone_6} positionTop="60%"></Edito>
+                    <Element name="illustrations/ILLUS3_CHAP6_lunettes.png" index="m1" positionLeft="25%"></Element>
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[6].zone_7} positionTop="15%"></Edito>
@@ -273,10 +283,12 @@ export default class Board extends Component {
                 <div className="Board__slide">
                     <Element name="CHAP7__CIT1.png" index="p1" positionLeft="0%"  ></Element>
                     <Edito content={this.props.datas.text[7].zone_1} positionTop="35%"></Edito>
+                    <Element name="illustrations/ILLUS5_CHAP7_olympiques.png" index="m2" positionLeft="20%"></Element>
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP7__CIT2.png" index="p1" positionLeft="-15%"  ></Element>
-                    <Edito content={this.props.datas.text[7].zone_2} positionTop="45%"></Edito>
+                    <Edito content={this.props.datas.text[7].zone_2} positionTop="40%"></Edito>
+                    <Element name="illustrations/ILLUS4_CHAP7_medaile.png" index="m2" positionLeft="35%"></Element>
                 </div>
                 <div className="Board__slide">
                     <Masthead />
