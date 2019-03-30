@@ -94,7 +94,7 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[1].zone_3} positionTop="6%"></Edito>
-                    <Video id="pejk_FnHRY_tvBRYknSvLlgdyZ0JVqZUMKaCRGQ" positionTop="65%" maxHeight="540" ratio="1.2"></Video>
+                    <Video id="pejk_FnHRY_tvBRYknSvLlgdyZ0JVqZUMKaCRGQ" positionTop="70%" maxHeight="540" ratio="1.2"></Video>
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[1].zone_4} positionLeft="20%" positionTop="25%"></Edito>
@@ -186,7 +186,7 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[4].zone_2} positionTop="65%"></Edito>
-                    <Video id="peR0oNeByqRjQjcaPCwkpXgc1gQouMmS6MTeRGQ" maxHeight="130" ratio="2" positionTop="30%" positionLeft="150%"></Video>
+                    <Video id="peR0oNeByqRjQjcaPCwkpXgc1gQouMmS6MTeRGQ" maxHeight="500" ratio="1.2" positionTop="30%" positionLeft="150%"></Video>
                     <Element name="FOND2.png" index="m1" positionLeft="-30%"></Element>
                 </div>
                 <div className="Board__slide">
@@ -229,7 +229,7 @@ export default class Board extends Component {
                     <Element name="CHAP5_IMG2.png" index="p1" positionLeft="-10%" positionTop="60%"  ></Element>
                 </div>
                 <div className="Board__slide">
-                    <Video id="pbNFAQYV5l1w56SpIW7bKbQBGCKBUP4CO9ceSGQ" maxHeight="130" ratio="2" positionTop="50%" positionLeft="150%"></Video>
+                    <Video id="pbNFAQYV5l1w56SpIW7bKbQBGCKBUP4CO9ceSGQ" maxHeight="500" ratio="1.2" positionTop="50%" positionLeft="150%"></Video>
                 </div>
                  <div className="Board__slide">
                     <Edito content={this.props.datas.text[5].zone_5} positionTop="20%"></Edito>
