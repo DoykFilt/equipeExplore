@@ -103,8 +103,8 @@ export default class Edito extends Component {
 
     togglePlay = function (id, e) {
         pause_all_audio();
-        playersObj[id].togglePlay();
-        e.stopPropagation();
+        // playersObj[id].togglePlay();
+        // e.stopPropagation();
     }
 
     render() {
