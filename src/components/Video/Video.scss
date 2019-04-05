@@ -7,12 +7,12 @@
     top:50%;
     transform:translateY(-50%);
 
-    &:after {
-        content:'';
-        display:block;
-        position:absolute;
-        top:0;
-        width:100%;
-        height:calc(100% - 50px);
-    }
+    // &:after {
+    //     content:'';
+    //     display:block;
+    //     position:absolute;
+    //     top:0;
+    //     width:100%;
+    //     height:calc(100% - 50px);
+    // }
 }
