@@ -111,8 +111,8 @@ export default class Edito extends Component {
 
         return (
             <div className="Video" style={{top: this.state.top, bottom: this.state.bottom}} onClick={this.togglePlay.bind(this, this.props.id)}>
-                <div className="Video__embed" id={"player_" + this.props.id}></div>
-                {/* use API instead}<iframe src={"//www.dailymotion.com/embed/video/" + this.props.id} width={this.state.width} height={this.state.height} frameBorder="0" allowFullScreen></iframe>{*/}
+                {/* <div className="Video__embed" id={"player_" + this.props.id}></div> */}
+                <iframe src={"//www.dailymotion.com/embed/video/" + this.props.id} width={this.state.width} height={this.state.height} frameBorder="0" allowFullScreen></iframe>
             </div>
         );
     }

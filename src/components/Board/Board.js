@@ -94,7 +94,7 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[1].zone_3} positionTop="6%"></Edito>
-                    <Video id="pejk_FnHRY_tvBRYknSvLlgdyZ0JVqZUMKaCRGQ" positionTop="70%" maxHeight="540" ratio="1.2"></Video>
+                    <Video id="x73eejt?fbclid=IwAR2ZNO4v1wxE1174r6SM9rMmv6qCb_ocIcPc8gVzIb40KptcLtDoPt7E3jw" positionTop="70%" maxHeight="540" ratio="1.2"></Video>
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[1].zone_4} positionLeft="20%" positionTop="25%"></Edito>
@@ -167,7 +167,7 @@ export default class Board extends Component {
                     <Edito content={this.props.datas.text[3].zone_4} positionTop="45%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Video id="pMgpTMaiO_ThVWUwgRQs3EQK78hGHIqGYpj6RGQ" positionTop="50%" maxHeight="500" ratio="1.2"></Video>
+                    <Video id="x73dvae?fbclid=IwAR02wsYP_t8cpFdq6WXEt-FsnEURS1GhNxa73SRuK9OQU-14_5vD4VPS_3U" positionTop="50%" maxHeight="500" ratio="1.2"></Video>
                 </div>
 
 
@@ -186,12 +186,11 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[4].zone_2} positionTop="65%"></Edito>
-                    <Video id="peR0oNeByqRjQjcaPCwkpXgc1gQouMmS6MTeRGQ" maxHeight="500" ratio="1.2" positionTop="30%" positionLeft="150%"></Video>
+                    <Video id="x73dttd?fbclid=IwAR38FRk6nWKxEDdrF3NC3q7Qls000iqM1ymawghzJgtAduiZXpI7Z-byS88" maxHeight="500" ratio="1.2" positionTop="30%" positionLeft="150%"></Video>
                     <Element name="FOND2.png" index="m1" positionLeft="-30%"></Element>
                 </div>
                 <div className="Board__slide">
-                    <Element name="CHAP4_IMG2.png" index="m1" positionLeft="20%"></Element>
-                    <Audio name="Thinklink_CHAP_4_Maltrait" audio_name="Thinklink-CHAP-4_Maltrait.mp3" image_name="maltrait.png" image_paused_name="Maltrait_Pause.png" positionTop="15%" positionLeft="40%" maxHeight="50%"></Audio>
+                    <Element name="CHAP4_IMG2.png" index="m1" positionLeft="17%"></Element>
                 </div>
                 <div className="Board__slide">
                     <Edito content={this.props.datas.text[4].zone_3} positionTop="10%"></Edito>
@@ -199,8 +198,9 @@ export default class Board extends Component {
                 <div className="Board__slide">
                     <Element name="FOND2.png" index="m1" positionLeft="-50%"></Element>
                     <Audio name="Thinklink_CHAP 4_Emeline" audio_name="Thinklink-CHAP-4_Emeline.mp3" image_name="emeline.png" image_paused_name="Emeline_Pause.png" positionTop="10%" positionLeft="10%" maxHeight="30%"></Audio>
-                    <Audio name="Thinklink_CHAP 4_Nathan" audio_name="Thinklink-CHAP-4_Nathan.mp3" image_name="nathan.png" image_paused_name="Nathan_Equipe_explore_Pause.png" positionTop="30%" positionLeft="50%" maxHeight="30%"></Audio>
-                    <Audio name="Thinklink_CHAP 4_Pere" audio_name="Thinklink-CHAP-4_Père-de-Théo.mp3" image_name="Dominique_Curin.png" image_paused_name="Dominique_Curin_Pause.png" positionTop="60%" positionLeft="10%" maxHeight="30%"></Audio>
+                    <Audio name="Thinklink_CHAP 4_Nathan" audio_name="Thinklink-CHAP-4_Nathan.mp3" image_name="nathan.png" image_paused_name="Nathan_Equipe_explore_Pause.png" positionTop="25%" positionLeft="50%" maxHeight="30%"></Audio>
+                    <Audio name="Thinklink_CHAP 4_Pere" audio_name="Thinklink-CHAP-4_Père-de-Théo.mp3" image_name="Dominique_Curin.png" image_paused_name="Dominique_Curin_Pause.png" positionTop="45%" positionLeft="10%" maxHeight="30%"></Audio>
+                    <Audio name="Thinklink_CHAP_4_Maltrait" audio_name="Thinklink-CHAP-4_Maltrait.mp3" image_name="maltrait.png" image_paused_name="Maltrait_Pause.png" positionTop="65%" positionLeft="50%" maxHeight="50%"></Audio>
                     <Element name="FOND2.png" index="m1" positionLeft="-30%"></Element>
                 </div>
 
@@ -217,7 +217,7 @@ export default class Board extends Component {
                     <Edito content={this.props.datas.text[5].zone_1} positionTop="25%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Element name="illustrations/ILLUS9_CHAP5_vestiaires.png" index="m2" positionLeft="50%"></Element>
+                    <Element name="illustrations/ILLUS9_CHAP5_vestiaires.png" index="p1" positionLeft="0%"></Element>
                     <Edito content={this.props.datas.text[5].zone_2} positionTop="50%"></Edito>
                 </div>
                  <div className="Board__slide background_chapter_5">
@@ -229,7 +229,7 @@ export default class Board extends Component {
                     <Element name="CHAP5_IMG2.png" index="p1" positionLeft="-10%" positionTop="60%"  ></Element>
                 </div>
                 <div className="Board__slide">
-                    <Video id="pbNFAQYV5l1w56SpIW7bKbQBGCKBUP4CO9ceSGQ" maxHeight="500" ratio="1.2" positionTop="50%" positionLeft="150%"></Video>
+                    <Video id="x73g0z9?fbclid=IwAR2SQYcK6aVJQtl1dGuq_gvzeePJ9-YK1olKsnR4-Btht64Esqg8xZFg6E0" maxHeight="500" ratio="1.2" positionTop="50%" positionLeft="150%"></Video>
                 </div>
                  <div className="Board__slide">
                     <Edito content={this.props.datas.text[5].zone_5} positionTop="20%"></Edito>

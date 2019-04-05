@@ -36,8 +36,8 @@ export default class Element extends Component {
                 <div className="Masthead__item">
                     <span className="Masthead__label">Développeurs</span>
                     <span className="Masthead__details black">
-                    Thibaud Beaufils
-                    Jean Hilleriteau
+                    En partenariat avec deux étudiants de l'école Polytech Tours :
+                    Thibaud Beaufils et Jean Hilleriteau
                     </span>
                 </div>
                 <div className="Masthead__item">
