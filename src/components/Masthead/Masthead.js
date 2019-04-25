@@ -23,7 +23,7 @@ export default class Element extends Component {
                 </div>
                 <div className="Masthead__item">
                     <span className="Masthead__label white">Photos</span>
-                    <span className="Masthead__details">Ecole publique de journalisme de Tours, Agence France-Presse, Fédération Française de Handisport, Parents de Théo Curin</span>
+                    <span className="Masthead__details">Hugo Girard, Romain Pichon, Ewen Renou, Agence France-Presse, Fédération Française de Handisport, Parents de Théo Curin</span>
                 </div>
                 <div className="Masthead__item">
                     <span className="Masthead__label white">Illustrations</span>
@@ -31,18 +31,17 @@ export default class Element extends Component {
                 </div>
                 <div className="Masthead__item">
                     <span className="Masthead__label white">Vidéos</span>
-                    <span className="Masthead__details">Ecole publique de journalisme de Tours</span>
+                    <span className="Masthead__details">Valériane Gouban, Adrien Petiteau</span>
                 </div>
                 <div className="Masthead__item">
-                    <span className="Masthead__label">Développeurs</span>
+                    <span className="Masthead__label">Développement</span>
                     <span className="Masthead__details black">
-                    En partenariat avec deux étudiants de l'école Polytech Tours :
-                    Thibaud Beaufils et Jean Hilleriteau
+                    Thibaud Beaufils et Jean Hilleriteau (École Polytech Tours)
                     </span>
                 </div>
                 <div className="Masthead__item">
                     <span className="Masthead__label white">Remerciements</span>
-                    <span className="Masthead__details">Anne Bayard, Amandine Leclercq, Lycée Valery Larbaud de Cusset (Allier), Stade aquatique de Vichy Communauté, CREPS Vichy Auvergne, Centre de Loisirs Nautiques de Thionville.</span>
+                    <span className="Masthead__details">Anne Bayard, Amandine Leclercq, Lycée Valery Larbaud de Cusset (Allier), Stade aquatique de Vichy Communauté, CREPS Vichy Auvergne, Centre de Loisirs Nautiques de Thionville, École publique de journalisme de Tours.</span>
                 </div>
             </div>
         );
